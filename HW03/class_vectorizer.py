@@ -196,10 +196,10 @@ class CountVectorizer:
 
 if __name__ == '__main__':
     corpus = [
-        'Crock and And Pot Pasta Never boil pasta again',
+        'Crock Pot Pasta Never boil pasta again',
         'Pasta Pomodoro Fresh ingredients Parmesan to taste'
     ]
-    vectorizer = CountVectorizer(lowercase=True, stop_words='english',
+    vectorizer = CountVectorizer(lowercase=True, stop_words=None,
                                  sort='original')
     count_matrix = vectorizer.fit_transform(corpus)
     print(vectorizer.get_feature_names())
