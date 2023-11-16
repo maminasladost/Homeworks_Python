@@ -1,0 +1,15 @@
+test_empty_arg (__main__.TestFitTransform)
+Проверяем, что функция вызывает TypeError (перехват исключения), ... ok
+test_list_strings (__main__.TestFitTransform)
+Проверяем, что функция корректно работает при передаче листа ... ok
+test_no_additional_info (__main__.TestFitTransform)
+Проверяем, что функция не выдает ничего лишнего ... ok
+test_numbers (__main__.TestFitTransform)
+Проверяем, что функция правильно работает с числами ... ok
+test_tuple_strings (__main__.TestFitTransform)
+Проверяем, что функция корректно работает при передаче tuple ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
